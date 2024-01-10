@@ -1,7 +1,7 @@
 import flet as ft
 
 def main(pagina: ft.Page):
-    pagina.title = "App do Kross"
+    pagina.title = "App contador"
     pagina.vertical_alignment = ft.MainAxisAlignment.CENTER
 
     def diminuir(e):
